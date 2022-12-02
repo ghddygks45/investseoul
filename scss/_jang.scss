@@ -1,0 +1,29 @@
+// mobile
+
+@media screen and (min-width: 1445px),
+print {
+	// pc
+
+	.header .navi_con .gnb_wrap .gnb>ul>li>a {
+		line-height: 103px;
+	}
+
+	:lang(en) .place_name {
+		display: flex;
+		flex: 1 1 auto;
+		justify-content: left;
+		align-items: center;
+		width: 286px;
+		height: 70px;
+		margin: 0 auto;
+		text-align: left;
+		padding: 0 0 0 86px;
+		line-height: 160%;
+		background-position: 0 50%;
+		background-size: auto;
+	}
+
+	:lang(en) .sec_bank .inner h2 {
+		font-size: 17px
+	}
+}
